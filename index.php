@@ -5,7 +5,7 @@
 */
 ob_start();
 error_reporting(0);
-define('API_KEY','2116961429:AAEyQnKSGem103oiNTRKpOU5_kfdTu24g8w'); // توکن ربات
+define('API_KEY','2113106340:AAGzWEekNYubLkmJPgXhNWfeq1DCJCBtBFQ'); // توکن ربات
 //-----------------------------------------------------------------------------------------
 function Bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -23,9 +23,9 @@ function Bot($method,$datas=[]){
 //-----------------------------------------------------------------------------------------
 // msg
 $Dev = array("214266677","0000000000000","0000000000"); //ایدی عددی ادمین ها
-$usernamebot = "bazi_esmfamili_bot";// ایدی ربات بدون @
+$usernamebot = "testherokumoeinbot";// ایدی ربات بدون @
 $channel = "merikhnavardi"; // ایدی کانال بدون @
-$token = "2116961429:AAEyQnKSGem103oiNTRKpOU5_kfdTu24g8w"; // توکن ربات
+$token = "2113106340:AAGzWEekNYubLkmJPgXhNWfeq1DCJCBtBFQ"; // توکن ربات
 //-----------------------------------------------------------------------------------------------
 $update = json_decode(file_get_contents('php://input'));
 $message = $update->message;
